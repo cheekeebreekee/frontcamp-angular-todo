@@ -79,7 +79,7 @@ app.factory('todoFactory', () => {
         completeTask(task) {
             let index = tasksList.findIndex((el) => el === task);
             tasksList[index].done = !tasksList[index].done;
-        },
+        }
     };
 });
 
